@@ -1,0 +1,11 @@
+<<<A longer para for test>>>
+he change commands are in the format [range][acd][range].  The range on the left may be a line number or a comma-separated range of line numbers referring to file1, and the range on the right similarly refers to file2.  The character in the middle indicates the action i.e. add, change or delete.
+
+    ‘LaR’ – Add lines in range ‘R’ from file2 after line ‘L’ in file1.
+    ‘FcT’ – Change lines in range ‘F’ of file1 to lines in range ‘T’ of file2.
+    ‘RdL’ – Delete lines in range ‘R’ from file1 that would have appeared at line ‘L’ in file2
+
+    Syntax: diff [options] file1 file2
+
+    Example: Add write permission for user, group and others for file1
+        $ diff file1 file2
